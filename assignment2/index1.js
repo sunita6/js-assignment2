@@ -1,0 +1,11 @@
+let a=[1,2,3,4];
+let b=new Array(2,4,6,9);
+console.log(a);
+console.log(b);
+console.log(a.reverse());
+console.log(a.sort());
+console.log("length of array a is",a.length);
+let c=a.concat(b);
+console.log("concat",c);
+a.push(5);
+console.log("after push",a);
